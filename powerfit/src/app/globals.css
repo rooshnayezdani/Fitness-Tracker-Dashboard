@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --col1:rgb(37, 58, 81);
+}
+
+body{
+  background-color: rgb(12, 10, 51);
+  color: beige;
+}
+
+.mainhead1{
+  -webkit-text-stroke: 1px rgb(70, 70, 116);
+  color: transparent;
+  font-size: 10rem;
+  font-weight: 900;
+  text-align: center;
+}

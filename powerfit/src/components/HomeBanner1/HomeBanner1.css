@@ -1,0 +1,77 @@
+.meters {
+    display:flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.meters .card {
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+    background-color: rgb(195, 192, 212);
+    color: black;
+    box-shadow: 0 0 10px rgb(122, 112, 157);
+    transition: 0.3s;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+/* .meters .card:nth-child(1) {
+    background: linear-gradient(90deg,rgb(77, 77, 168) 100%)
+} */
+.meters .card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.meters .card-header-box {
+    display:flex;
+    flex-direction: column;
+    min-width: 49%;
+    background-color: aliceblue;
+    aspect-ratio: 1/1;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px burlywood;
+    border-radius: 10px;
+}
+.meters .card-header-box-name {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.meters .card-header-box-value {
+    font-size: 14px;
+    color: rgb(32, 45, 46);
+}
+.meters .card button{
+    background-color: rgb(43, 46, 102);
+    color: rgb(244, 231, 231);
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.meters .card button:hover{
+    background-color: rgb(107, 107, 163);
+    color: black;
+}
+
+.meters .textincircle{
+    color: rgb(21, 17, 13);
+    font-weight: 700;
+}
